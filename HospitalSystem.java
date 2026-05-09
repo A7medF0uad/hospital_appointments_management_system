@@ -16,7 +16,7 @@ public class HospitalSystem {
 
     public HospitalSystem() throws IOException {
         this.userslist = new ArrayList<>();
-        this.userfileManager = new FileManager("C:\\Users\\LENOVO\\Documents\\NetBeansProjects\\Hospital_Appointments_Management_System\\src\\main\\java\\hospital_appointments_management_system\\users.txt");
+        this.userfileManager = new FileManager("users.txt");
         this.admin = new Admin();
     }
 
