@@ -14,9 +14,9 @@ public class Admin {
     private FileManager appointmentsFile;
 
     public Admin() throws IOException {
-        this.patientsFile = new FileManager("C:\\Users\\LENOVO\\Documents\\NetBeansProjects\\Hospital_Appointments_Management_System\\src\\main\\java\\hospital_appointments_management_system\\patients.txt");
-        this.doctorsFile = new FileManager("C:\\Users\\LENOVO\\Documents\\NetBeansProjects\\Hospital_Appointments_Management_System\\src\\main\\java\\hospital_appointments_management_system\\doctors.txt");
-        this.appointmentsFile = new FileManager("C:\\Users\\LENOVO\\Documents\\NetBeansProjects\\Hospital_Appointments_Management_System\\src\\main\\java\\hospital_appointments_management_system\\appointments.txt");
+        this.patientsFile = new FileManager("patients.txt");
+        this.doctorsFile = new FileManager("doctors.txt");
+        this.appointmentsFile = new FileManager("appointments.txt");
     }
 
     public void setLists(ArrayList<Doctor> doctorList, ArrayList<Patient> patientList, ArrayList<Appointment> appointmentList) {
